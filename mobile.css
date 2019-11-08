@@ -1,0 +1,67 @@
+/*target logo to be centered */
+#navbar .logo {
+  float: none;
+  text-align: center;
+}
+
+/* set both to float none, menu drops down liust, in future we can use JS to create hamburger*/
+#navbar ul, #navbar ul li {
+  float: none;
+}
+/* remove as too much padding and then added small amount padding */
+#navbar ul li a {
+  padding: 5px;
+  border-bottom: #444 dotted 1px;
+}
+
+/* Showcase */
+#showcase {
+  height: 100%;
+}
+
+#showcase .showcase-content {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+/* Home Info */
+#home-info {
+  height: 550px;
+}
+/* remove image so text takes over all */
+#home-info .info-img {
+  display: none;
+}
+
+/* removed float  */
+#home-info .info-content {
+  float: none;
+  width: 100%;
+}
+
+/* Boxes */
+/* boxes on index and contact page, remove float and width 100% */
+.box {
+  float: none;
+  width: 100%;
+}
+
+/* About */
+/* setting left, right to no float and width 100% so they float above each other */
+#about-info .info-right, #about-info .info-left {
+  float: none;
+  width: 100%;
+}
+/* move image down abit */
+#about-info .info-right {
+  margin-top: 30px;
+}
+/* centering */
+.l-heading {
+  text-align: center;
+}
+
+/* Contact */
+#contact-info .box {
+  border-bottom: #444 dotted 1px;
+}
